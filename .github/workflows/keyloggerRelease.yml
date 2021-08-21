@@ -35,4 +35,4 @@ jobs:
         run: nuget restore KeyLogger.sln
 
       - name: Build the Solution
-        run: msbuild ./KeyLogger.sln -c Release -o ./bin/Release
+        run: msbuild KeyLogger.sln -c Release -o .\bin\Release
